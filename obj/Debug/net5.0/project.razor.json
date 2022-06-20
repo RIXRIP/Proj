@@ -1,0 +1,130 @@
+{
+  "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Proj.csproj",
+  "Configuration": {
+    "ConfigurationName": "MVC-3.0",
+    "LanguageVersion": "5.0",
+    "Extensions": [
+      {
+        "ExtensionName": "MVC-3.0"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 900
+  },
+  "RootNamespace": "Proj",
+  "Documents": [
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\Category.cshtml",
+      "TargetPath": "Views\\Cms\\Category.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\DisplayTemplates\\HtmlBlock.cshtml",
+      "TargetPath": "Views\\Cms\\DisplayTemplates\\HtmlBlock.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\DisplayTemplates\\ImageGalleryBlock.cshtml",
+      "TargetPath": "Views\\Cms\\DisplayTemplates\\ImageGalleryBlock.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\DisplayTemplates\\Comment.cshtml",
+      "TargetPath": "Views\\Cms\\DisplayTemplates\\Comment.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\DisplayTemplates\\PageBlock.cshtml",
+      "TargetPath": "Views\\Cms\\DisplayTemplates\\PageBlock.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\Page.cshtml",
+      "TargetPath": "Views\\Cms\\Page.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\Archive.cshtml",
+      "TargetPath": "Views\\Cms\\Archive.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\DisplayTemplates\\MarkdownBlock.cshtml",
+      "TargetPath": "Views\\Cms\\DisplayTemplates\\MarkdownBlock.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\Post.cshtml",
+      "TargetPath": "Views\\Cms\\Post.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\DisplayTemplates\\ColumnBlock.cshtml",
+      "TargetPath": "Views\\Cms\\DisplayTemplates\\ColumnBlock.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Setup\\Index.cshtml",
+      "TargetPath": "Views\\Setup\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\DisplayTemplates\\VideoBlock.cshtml",
+      "TargetPath": "Views\\Cms\\DisplayTemplates\\VideoBlock.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\DisplayTemplates\\AudioBlock.cshtml",
+      "TargetPath": "Views\\Cms\\DisplayTemplates\\AudioBlock.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\DisplayTemplates\\SeparatorBlock.cshtml",
+      "TargetPath": "Views\\Cms\\DisplayTemplates\\SeparatorBlock.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\DisplayTemplates\\ImageBlock.cshtml",
+      "TargetPath": "Views\\Cms\\DisplayTemplates\\ImageBlock.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\Catalog.cshtml",
+      "TargetPath": "Views\\Cms\\Catalog.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\DisplayTemplates\\QuoteBlock.cshtml",
+      "TargetPath": "Views\\Cms\\DisplayTemplates\\QuoteBlock.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\DisplayTemplates\\TextBlock.cshtml",
+      "TargetPath": "Views\\Cms\\DisplayTemplates\\TextBlock.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\vlads\\Desktop\\Proj\\Views\\Cms\\DisplayTemplates\\PostBlock.cshtml",
+      "TargetPath": "Views\\Cms\\DisplayTemplates\\PostBlock.cshtml",
+      "FileKind": "mvc"
+    }
+  ],
+  "SerializationFormat": "0.2"
+}
