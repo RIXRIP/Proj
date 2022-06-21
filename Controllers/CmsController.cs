@@ -10,46 +10,7 @@ namespace Proj.Controllers
 {
     [ApiExplorerSettings(IgnoreApi = true)]
     public class CmsController : Controller
-    {[Route("catalog")]
- public async Task<IActionResult> Catalog(Guid id)
- {
- var catalog = await _api.Pages.GetByIdAsync<CatalogPage>(id);
- var model = new CatalogViewModel
- {
- CatalogPage = catalog,
- Categories = (await _api.Sites.GetSitemapAsync())
- // получение страницы каталога
- .Where(item => item.Id == catalog.Id)
- // получение дочерних страниц
- .SelectMany(item => item.Items)
- // получение страницы и возврат упрощенной модели 
- // представления для каждого дочернего элемента карты сайта
- .Select(item =>
- {
- var page = _api.Pages.GetByIdAsync<CategoryPage>
- (item.Id).Result;
- var ci = new CategoryItem
- {
- Title = page.Title,
- Description = page.CategoryDetail.Description,
- PageUrl = page.Permalink,
- ImageUrl = page.CategoryDetail.CategoryImage
- .Resize(_api, 200)
- };
- return ci;
- })
- };
- return View(model);
- }
- [Route("catalog-category")]
- public async Task<IActionResult> Category(Guid id)
- {
- var model = await _api.Pages
- .GetByIdAsync<Models.CategoryPage>(id);
- return View(model);
- }
- }
-}
+    {
         private readonly IApi _api;
         private readonly IModelLoader _loader;
 
@@ -166,5 +127,44 @@ namespace Proj.Controllers
                 return Unauthorized();
             }
         }
-    }
+                [Route("catalog")]
+ public async Task<IActionResult> Catalog(Guid id)
+ {
+ var catalog = await _api.Pages.GetByIdAsync<CatalogPage>(id);
+ var model = new CatalogViewModel
+ {
+ CatalogPage = catalog,
+ Categories = (await _api.Sites.GetSitemapAsync())
+ // получение страницы каталога
+ .Where(item => item.Id == catalog.Id)
+ // получение дочерних страниц
+ .SelectMany(item => item.Items)
+ // получение страницы и возврат упрощенной модели 
+ // представления для каждого дочернего элемента карты сайта
+ .Select(item =>
+ {
+ var page = _api.Pages.GetByIdAsync<CategoryPage>
+ (item.Id).Result;
+ var ci = new CategoryItem
+ {
+ Title = page.Title,
+ Description = page.CategoryDetail.Description,
+ PageUrl = page.Permalink,
+ ImageUrl = page.CategoryDetail.CategoryImage
+ .Resize(_api, 200)
+ };
+ return ci;
+ })
+ };
+ return View(model);
+ }
+ [Route("catalog-category")]
+ public async Task<IActionResult> Category(Guid id)
+ {
+ var model = await _api.Pages
+ .GetByIdAsync<Models.CategoryPage>(id);
+ return View(model);
+ }
+ }
 }
+
